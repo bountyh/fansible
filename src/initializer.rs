@@ -1,8 +1,8 @@
 
 
 pub struct Initializer {
-  Directory: String
-  Playbooks: Vec<T>
+  Directory: String,
+  Playbooks: Vec<T>,
 }
 
 impl Initializer {
