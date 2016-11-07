@@ -4,4 +4,5 @@ version = "0.1.0"
 authors = ["Pete Ropponen <pete@ropponen.fi>"]
 
 [dependencies]
-yaml-rust = "*"
+glob = "0.2"
+yaml-rust = "0.3.4"
