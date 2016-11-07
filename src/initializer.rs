@@ -1,13 +1,13 @@
 
 
 pub struct Initializer {
-  Directory: String,
-  Playbooks: Vec<T>,
+	directory: String,
+	playbooks: Vec<T>,
 }
 
 impl Initializer {
-  pub fn scan_dir() -> ScanResult {
-    
-  }
+	pub fn scan_dir() -> ScanResult {
+
+	}
 }
 
