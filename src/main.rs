@@ -27,5 +27,7 @@ struct Args {
 }
 
 fn main() {
-
+	let args: Args = Docopt::new(USAGE)
+                            .and_then(|d| d.decode())
+                            .unwrap_or_else(|e| e.exit());
 }
