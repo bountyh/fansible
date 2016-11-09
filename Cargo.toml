@@ -7,4 +7,4 @@ authors = ["Pete Ropponen <pete@ropponen.fi>"]
 glob = "0.2"
 yaml-rust = "0.3.4"
 docopt = "0.6"
-rustc-serialize = "0.3"  # if you're using `derive(RustcDecodable)`
+rustc-serialize = "0.3"

@@ -12,7 +12,7 @@ Usage:
 	fansible init <directory> [ --recursive ]
 	fansible <project> [ --list ]
 	fansible ls
-	fansible <project> <play>
+	fansible <project> <play> [ --parallel ]
 Options:
   -h --help		Show this screen.
   -v 			Show version.
@@ -23,7 +23,6 @@ struct Args {
 	arg_directory: String,
 	arg_project: String,
 	arg_play: String,
-	flag_recursive: bool,
 }
 
 fn main() {
